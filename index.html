@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
     <title>Cat Clicker</title>
   </head>
   <body>
@@ -14,19 +15,34 @@
 
     </div>
   <style>
+
+    body {
+      font-family: 'Architects Daughter', cursive;
+      background-image: url('https://c2.staticflickr.com/8/7174/6843071941_8eb7770dc0_b.jpg');
+      cursor:url(cursor.cur),auto;
+    }
+
     h2 {
       text-align: center;
 
+
     }
     img {
-      width: 120px;
-      height: 120px;
-      padding: 20px;
+      margin-top: 0;
+      width: 420px;
+      height: 320px;
+      padding: 0px;
+      padding-left: 0;
       display: inline;
+      border: 3px solid black;
+    }
+    img:hover {
+      cursor: url("cursor2.cur"),auto;
     }
     #output{
       text-align: center;
-      padding-top:  30px;
+      padding-top:  00px;
+      font-size: 30px;
 
     }
     #catpic {
@@ -35,14 +51,21 @@
 
     }
     h3{
-
+      font-size: 1.5em;
+      font-weight: bolder;
       top:500px;
-      color: red;
+      color: #237BBA  ;
 
     }
 
     li:hover {
       color :red;
+      cursor:url(cursor.cur),auto;
+    }
+    #catList {
+      float: left;
+      padding-right: 0;
+      margin-right: auto;
     }
   </style>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
